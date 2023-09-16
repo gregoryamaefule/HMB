@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 66vh;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat, repeat;
+}
+
+@media (max-width: 600px){
+    .main{
+        min-height: 550px;
+
+    }
+}
+
+
+.herodiv{
+    width: 80vw;
+    margin:  0 auto;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    
+}
+.herodiv>.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    color: white;
+}
+.header>div>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+}
+.header>div>span>a{
+    text-decoration: none;
+    color: white;
+}
+.header>a>img{
+    width: 30px;
+    aspect-ratio: 1/1;
+}
+.header>div>span>img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+
+.carrd{
+    width: 60%;
+    height: 70%;
+    color: white;
+    padding: 10px 0;
+}
+
+@media (max-width: 900px){
+    .main{
+        height: 72vh;
+    }
+    .carrd{
+        width: 85%;
+    }
+}
+@media (max-width: 500px){
+    .main{
+        height: 72vh;
+    }
+    .carrd{
+        width: 95%;
+    
+    }
+
+}
+.carrd> div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 10px 0;
+}
+.carrd>div>span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.carrd>p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.carrd>img{
+    cursor: pointer;
+}
