@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import iconoir_search from './assets/Search.png'
+import iconoir_search from './assets/search.png'
 import './Search.css'
 
 export default function Search ({value, onSearchWordChange, onSubmit}){

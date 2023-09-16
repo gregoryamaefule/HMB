@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import tv from './assets/tv.png'
-import menu from './assets/Menu.png'
+import menu from './assets/menu.png'
 import imbdIcon from './assets/imbd.png'
 import pearIcon from './assets/pearIcon.png'
-import Button from './assets/Button.png'
+import Button from './assets/button.png'
 import './Hero.css'
 import Search from './Search.jsx'
 

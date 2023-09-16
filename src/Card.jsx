@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
-import loveIcon from './assets/Love Icon.png'
+import loveIcon from './assets/loveicon.png'
 import imbdIcon from './assets/imbd.png'
 import pearIcon from './assets/pearIcon.png'
 import viteLogo from '/vite.svg'

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import arrowIcon from './assets/arrowIcon.png'
+import arrowIcon from './assets/arrowicon.png'
 import Card from './Card.jsx'
 import './Featured.css'
 import axios from 'axios'

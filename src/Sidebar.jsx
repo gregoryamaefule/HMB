@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 import tv from './assets/tv.png'
-import home from './assets/Home.png'
-import calendar from './assets/Calendar.png'
-import logout from './assets/Logout.png'
-import MP from './assets/MP.png'
-import TVS from './assets/TVS.png'
+import home from './assets/home.png'
+import calendar from './assets/calendar.png'
+import logout from './assets/logout.png'
+import MP from './assets/mp.png'
+import TVS from './assets/tvs.png'
 import './Sidebar.css'
 
 function Sidebar(){
